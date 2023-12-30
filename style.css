@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+}
+.container {
+  width: 50%;
+  position: relative;
+  z-index: 0;
+  cursor: zoom-in;
+  margin: auto;
+  top: 150px;
+  overflow: hidden;
+  margin-bottom: 0;
+  height: fit-content;
+}
+
+.zoom-out {
+  cursor: zoom-out;
+}
+.container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.zoomBox {
+  border: 5px solid white;
+  background-color: white;
+  box-shadow: 4px 4px 4px black;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 10;
+  box-sizing: border-box;
+}
+.hide {
+  display: none;
+}
+.zoom {
+  position: relative;
+}
